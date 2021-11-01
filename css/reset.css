@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+body {
+	line-height: 1;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+header,
+nav,
+main,
+footer,
+section,
+article,
+aside,
+figure,
+figcaption,
+hgroup {
+	display: block;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	vertical-align: bottom;
+}
+
+ul,
+ol {
+	list-style: none;
+	list-style-type: none;
+}
+
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+article > * + * {
+	margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
